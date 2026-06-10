@@ -1,0 +1,12 @@
+Utilizar entrada e saída de informações, tipos de dados e variáveis
+Aplicar operações aritméticas
+Utilizar estrutura condicional: if, else, elif e operadores de comparação
+Implementar funções
+Aplicar laços de repetição
+Aplicar aninhamento de estruturas
+Implementar manipulação de lista
+Utilizar tuplas
+Manipulação de arquivos
+Utilizar dicionários
+Implementar sequencias lógicas para geração de algoritmos.
+Analisar código

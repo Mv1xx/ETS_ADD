@@ -1,0 +1,7 @@
+1 - FOR
+2 - FOR
+3 - FOR
+4 - FOR | DICIONARIO
+5 - FOR
+6 - WHILE
+7 - WHILE | FOR

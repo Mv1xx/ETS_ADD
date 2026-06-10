@@ -1,0 +1,1 @@
+Crie uma função que recebe um caracter como parâmetro e conta quantas vezes ele está presente no arquivo "palavras.txt"

@@ -1,0 +1,35 @@
+==============================================PARTE 1==========================================
+Faça um algoritmo que gera uma pirâmide de número, o formato de dado usado para 
+isso fica a sua escolha. Com o parâmetro sendo a base da pirâmide.
+
+Exemplo:
+piramide = gen_pyramid(5)
+print_pyramid(piramide)
+   
+    3
+   0 7
+  4 6 5
+ 6 3 1 3
+4 3 8 0 9 
+
+
+
+==============================================PARTE 2==========================================
+Agora com a pirâmide estruturada, monte um algoritmo capaz de identificar qual o melhor
+caminho partindo do topo à base, ou seja, o topo '3', pode ir para esquerda ('0') ou para 
+direita ('7'), o mesmo se aplica conforma vai descendo.
+O melhor caminho é aquele que tem a maior soma dos valores percorridos.
+O estrutura do output não é relevante, contanto que seja possível identificar o caminho correto
+
+Exemplo 1:
+    1
+   0 1
+  0 1 0 
+ 0 1 0 0
+0 0 1 0 0
+
+Exemplo 2:
+direita, esquerda, esquerda, direita
+
+Exemplo 3:
+1,0,0,1

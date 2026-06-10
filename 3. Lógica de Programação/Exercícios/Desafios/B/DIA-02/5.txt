@@ -1,0 +1,12 @@
+Faça um programa que imprime uma pirâmide formatada no terminal a partir de uma base fornecida pelo usuário
+exemplo:
+
+base = 5
+
+output:
+
+    X
+   X X
+  X X X 
+ X X X X
+X X X X X
