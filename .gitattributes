@@ -1,0 +1,2 @@
+*.pdf filter=lfs diff=lfs merge=lfs -text
+0.[[:space:]]Minha[[:space:]]Pasta/4.[[:space:]]Excel/Desafio/pdf/Apostila[[:space:]]Completa.pdf filter=lfs diff=lfs merge=lfs -text
