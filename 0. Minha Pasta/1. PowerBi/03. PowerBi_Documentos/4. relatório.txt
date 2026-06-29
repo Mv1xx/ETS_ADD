@@ -1,0 +1,93 @@
+		OPERAÇÕES
+
+quantidade vendida = sam('base de vendas')[quantidade])
+ 
+
+Tipo do pedido = IF(nome da tabela[nome da coluna] = 1, se TRUE, se FALSE)
+
+Tipo do pedido = IF(Vendas[Tamanho Pedido] = 1, "Pedido Único", "Pedido Múltiplo")
+________
+		CALCULATE
+
+Faturamento 2020 = CALCULATE([Faturamento Total], 'Calendário'[Ano] = 2020)
+
+- calcular o faturamento total, onde o ano do calendário seja igual 2020
+
+- calculate = avalia uma expressão e aplica um filtro 
+*USAR CALCULATE PARA CONDIÇÃO COM FILTRO
+"some se for ..."
+
+Faturamento Fixo = CALCULATE([Faturamento Total], ALL(Vendas))
+- calcular o faturamento total filtrando somente as vendas	
+__________
+
+separador de coisas = , (virgula)
+separador decimal = . (ponto)
+
+_________
+
+Preço do Produto = RELATED(Produtos[Preço Unitário])
+- trás a coluna 'preço unitário' da tabelas Produtos, para outra tabela
+
+
+*precisa ter relacionamento correto entre as tabelas para funcionar*
+_____
+
+*oq fazemos no powerbi nn afeta o powerquery
+
+_______
+
+		MEDIDAS
+
+Medida = variável
+FATURAMENTO É UMA MEDIDA NÃO UMA "NOVA COLUNA"
+
+
+inserir dados -> nome da tabela -> "Medida" -> adicionar todas as medidas la dentro 
+
+- motivos de organização;
+_____
+		FILTRO 
+
+Filtrar os elementos de uma tabela para vizualização específica
+
+Filtro N - filtrar os maiores, fazer um 'Ranking', TOP 4;
+
+Por Valor - Os 5 produtos mais oq???
+
+segmento de dados - escolhe as opções para filtrar nos outros campos. (vizualização)
+____
+
+		BOTOES E INTERAÇÕES
+
+1. Exibir | indicadores - para "salvar" o visual
+2. inserir um botão
+3. inserir texto
+4. inserir ação 
+5. indicador - para outra página
+
+Associar um grafico no outro com o hover
+
+informações da pagina -> dicas de ferramentas -> linkar o grafico em geral -> dicas de ferramentas
+
+______
+
+COMO TIRAR O "EM BRANCO" QUANDO NN TEM INFORMAÇÃO
+
+gerar medida 
+Produtos devolvidos = IF(SUM('Devoluções'[Quantidade Devolvida]) = 0, " ", SUM('Devoluções'[Quantidade Devolvida]))
+
+Se a soma da quantidade devolvida for = 0 (quando não houver devolução) exiba " "
+Senão, mostre a soma da devoluções;
+
+Colocar a medida no elemento visual
+_______
+
+	MUDAR O TITULO DO CARTÃO
+
+produtos devolvidos - titulo = IF(ISFILTERED(Produtos[Produto]), "Quantidade de " & SELECTEDVALUE(Produtos[Produto]) & " devolvidos", "Quantidade de produtos devolvidos no geral")
+
+
+colocar a medida no Fx de titulo do elemento visual
+
+

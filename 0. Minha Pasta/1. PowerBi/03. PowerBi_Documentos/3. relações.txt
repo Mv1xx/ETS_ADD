@@ -1,0 +1,27 @@
+TABELA FATO E TABELA CARACTERÍSTICA
+
+criar relacionamento x mesclar colunas
+mesclar = poucas informações
+
+tabela fato - linhas se repetem diversas vezes
+tabela características - informações ligadas a alguma coisa que não repete
+
+"uma tabela fato tera varias características associadas a ela"
+
+tabelas características - mesclar
+tabela fato - relacionamento
+
+____
+
+CHAVES
+
+cada tabela tem uma chave
+chave primaria x chave estrangeira 
+	primaria - valores que não se repetem (características)
+	estrangeira - tabela fato
+
+
+um elemento de uma tabela fato se repete varias vezes na tabela características
+Ex: cliente se repete em devoluções e vendas
+
+1:M

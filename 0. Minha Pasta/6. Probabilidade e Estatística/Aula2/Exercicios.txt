@@ -1,0 +1,205 @@
+1)
+_______________________________________________________________________
+defeituoso dado falha: 25/60 = 41,66
+
+falha dado defeituoso: 25/40 = 5/8 = 0,625
+
+defeituoso n falha = 25/500 = 5%
+
+2)
+_______________________________________________________________________
+
+grande dado vermelha: 4/6 = 0,66
+
+vermelha dado grande: 4/5 = 0,8
+
+3)
+_______________________________________________________________________
+
+15 válvulas 
+- 10 boas
+- 5 ruins
+
+-ordem não importa
+-parte dos elementos
+
+3 valvula entre 15
+C(3, 15) = 15!/3!12! =  13 x 14 x 15 / 6 = 455
+
+2 valvula boas entre 10 boas
+C(10, 2) = 10!/2!8! = 9 x 5 = 45
+
+C(5, 1) = 5
+
+45 * 5/455 = 225/455 = 49%
+
+4)
+_______________________________________________________________________
+
+9 vermelhas - 6 grandes - 3 pequenas
+6 azul - 2 grandes - 4 pequenas
+15 total - 8 grandes - 7 pequenas
+
+P(A) = 9/15 = 0,6 = 60% - vermelha
+
+P(B) = 8/15 = 0,53 = 53% - grande
+
+P(B|A) -> bola vermelha dado que é grande = 6/8 = 0,75% = 75%
+//6/9
+
+
+P(A|B) -> bola grande dado que é vermelha = 75 * 60 / 53 = 0,9
+75%
+60 * 66 / 53 = 74
+
+5)
+_______________________________________________________________________
+
+100 produtos
+8 defeituosos - 70% com falha visual -> 	5,6
+92 não defeituosos - 10% com falha visual -> 	9,2
+						14,8 falha visual
+
+D - produto defeituoso
+F - falha visual
+
+Peça com falha visual
+P(F) = P(F|D)(D) + P(F|N)(N)
+P(F) = 5,6 * 8 + 9,2 * 92
+	44,8 + 846,4 = 891,2
+14%
+
+Peça defeituosa dado que tem falha visual
+P(D|F) = 5,6/8 = 0,7 = 70%
+37,8%
+
+6)
+_______________________________________________________________________
+
+10 funcionarios
+equipe de 4 pessoas
+
+a) quantas equipes podem se formar?
+C(10, 4) = 10!/4!6! = 210
+
+
+b) quantas equipes sao possiveis se um funcionário específico deve obrigatóriamente participar?
+
+C(9, 3) = 84
+
+
+7)
+_______________________________________________________________________
+
+4 caracteres na senha - letra e número
+
+a) Quantas senhas diferentes podem ser formadas?
+
+8**4
+
+b) quantas senhas possuem exatamente duas letras e dois numeros?
+
+26 * 26 * 10 * 10 = 67.600
+5**2 * 3**2 * 6
+
+c) Quantas senhas possuem apenas letras diferentes?
+
+26 * 25 * 24 * 23 = 358.800
+5! = 120
+
+8)
+_______________________________________________________________________
+
+
+6 numeros entre 60 possíveis
+
+
+a) Quantos resultados diferentes podem ocorrer?
+
+60 * 59 * 58 * 57 * 56 * 55 = 36.045.979.200
+
+
+b) Quantos jogos possuem exatamente 3 números iguais ao sorteio?
+//96 080
+
+C(60, 6) = 50milhoes
+
+C(6, 3)
+
+C(54, 3)
+
+20 * 24 * 800 = 496080
+
+c) Qual a probabilidade de acertar os 6 números?
+
+1/50063860 = 
+
+9)
+_______________________________________________________________________
+
+a) Quantos conjuntos de 3 cartas podem ser formados?
+
+C(52, 3) = 52!/3!49! = 22100
+
+b) Quantos desses conjuntos possuem 3 cartas do mesmo naipe?
+
+C(13,3) = 13!/3!10! = 286 * 4 = 1144 
+
+c) Qual a probabilidade desse evento ocorrer?
+
+1144/22100 = 0,0517
+
+10)
+_______________________________________________________________________
+
+7 candidatos para 3 cargos
+
+Separar 7 pessoas em grupo de 3 e a ordem importa
+
+a) De quantas maneiras os 3 cargos podem ser preenchidos?
+
+A(7, 3) = 7!/4! = 210
+
+
+Separar 6 pessoas em grupo de 2
+
+b) Quantas dessas formas incluem Carlos ocupando algum dos cargos?
+
+6!/4!
+30
+
+c) Qual é a probabilidade de Carlos ser selecionado para algum cargo?
+
+30/210 = 14%
+
+11)
+_______________________________________________________________________
+
+LAGO
+
+a) Quantas sequências diferentes podem ser formadas com essas letras.
+
+4 * 3 * 2 * 1 = 24
+
+b) Quantas dessas sequências começam com a letra L.
+
+1 * 3 * 2 * 1 = 6
+
+c) Qual é a probabilidade de a sequência formada começar com L.
+
+6/24 = 0,25 = 25%
+
+12)
+_______________________________________________________________________
+
+	alta 	media 	baixa
+Falha	0,10	0,01	0,001
+	0,2	0,3	0,5
+
+
+0,10 * 0,2 + 0,01 *0,3 + 0,001 * 0,5 = 0,0235
+ 
+0,1 * 0,2 /0,0235 = 0,02/0,0235 = 0,851 = 85,1%
+
+
+

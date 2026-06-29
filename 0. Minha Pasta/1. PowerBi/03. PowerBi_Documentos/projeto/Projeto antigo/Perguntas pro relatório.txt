@@ -1,0 +1,29 @@
+Como a popularidade média das músicas mudou entre o período de 2000-2023 e o ano de 2024?
+
+Quais gêneros musicais tiveram maior crescimento ou queda na popularidade em 2024 comparado ao período anterior?
+
+Há mudança significativa na dançabilidade média das músicas de 2024 em relação às músicas de 2000-2023?
+
+Os artistas mais populares de 2000-2023 mantiveram sua popularidade em 2024? Quais artistas novos surgiram com destaque?
+
+Como a instrumentalidade média das músicas variou entre os dois períodos?
+
+A duração média das músicas mudou em 2024 comparada com os anos anteriores?
+
+Qual é a diferença no tempo médio (BPM) das músicas entre os períodos 2000-2023 e 2024?
+
+Quais características (dançabilidade, vivacidade, intensidade) mostram maior variação entre os dois períodos?
+
+Existem novos clusters ou grupos de músicas em 2024 com características diferentes dos anos anteriores?
+
+Qual é a média de faixas por álbum em 2024 comparado com os anos anteriores?
+
+Quais gêneros musicais dominam as playlists em 2024 e como isso contrasta com 2000-2023?
+
+Quais são os artistas que apareceram em ambas as tabelas e como sua popularidade evoluiu?
+
+Como a popularidade média dos álbuns em 2024 compara com o período de 2000-2023?
+
+Há alguma relação entre as características da música (como intensidade e vivacidade) e a popularidade do artista em 2024?
+
+Alguma característica das músicas se tornou mais comum ou menos comum em 2024 em relação aos anos anteriores?

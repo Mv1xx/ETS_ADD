@@ -1,0 +1,30 @@
+Variância, o quanto uma característica depende de outra
+Ex: preço da casa e localidade
+
+quanto maior o valor, maior a relação (sendo positivo ou negativo)
+
+coeficiente de correlação, padroniza a variância em um número do 0 até 1, sendo 1 perfeito
+
+
+
+REGREÇÃO LINEAR SIMPLES
+
+quando um valores dependem exclusivamente de uma so variável, formando um gráfico/função linear (de 1 grau)aaaaa
+
+Precisam generalizar os valores a fim de encontrar valores q nn calculamos ou nn desconhecemos baseado em outros (generalização)
+
+
+P = b + m * v
+
+P - Previsão
+b - Intersecção (onde x é 0)
+m - inclinação (Angulo)
+v - valor que quero prever
+
+m = cr(std(y)/std(x))
+
+b = y - m * x
+
+y - media de y
+m - inclinação
+x - media de x

@@ -1,0 +1,19 @@
+# Arquivos compactados
+*.zip
+
+# PDFs grandes da pasta Excel
+0. Minha Pasta/4. Excel/Desafio/pdf/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+venv/
+.venv/
+
+# Arquivos do Jupyter
+.ipynb_checkpoints/
+
+0. Minha Pasta/4. Excel/Desafio/pdf/Apostila Completa.pdf
+0. Minha Pasta/4. Excel/Desafio/pdf/Apostila Completa.zip
